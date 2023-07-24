@@ -63,3 +63,43 @@ nav li {
     font-size: 15px;
     font-weight: 500;
 }
+
+
+/* responsive styles */
+
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+        padding: 40px 100px;
+    }
+    .list ul{
+        flex-direction: column;
+    }
+    .list{
+        flex-direction: column;
+    }
+    .logo-title{
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .about{
+        margin-bottom: 25px;
+    }
+    .dev{
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px){
+    nav{
+        flex-direction: column;
+        padding: 40px 100px;
+    }
+    .logo-title{
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .list{
+        justify-content: center;
+    }
+}
