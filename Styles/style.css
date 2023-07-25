@@ -185,7 +185,6 @@ nav li {
     justify-content: center;
     align-items: center;
     gap: 200px;
-    margin-bottom: 120px;
 }
 
 
@@ -228,7 +227,38 @@ nav li {
 
 /* games section */
 
+.games-container {
+    background-color: #fff9fc;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 120px 250px;
 
+}
+
+.games-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 25px;
+    padding: 0 10px;
+    border: 0;
+    border-radius: 50px;
+    background: #FFF;
+    cursor: pointer;
+    margin-right: 25px;
+    width: 230px;
+}
+
+.games-img {
+    width: 40px;
+}
+
+.games-btn:hover {
+    color: #FF42A5;
+    border: 2px solid #FF42A5;
+}
 
 /* responsive styles */
 
@@ -302,7 +332,7 @@ nav li {
         margin-bottom: 120px;
     }
 
-    .download-img-container{
+    .download-img-container {
         text-align: center;
     }
 
@@ -310,6 +340,26 @@ nav li {
         position: relative;
         bottom: 110px;
         right: 140px;
+    }
+
+    /* games section  */
+    .game-btn{
+        gap: 2px;
+        margin-right: 2px;
+    }
+    .games-container {
+        background-color: #fff9fc;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 120px 250px;
+        margin-bottom: 120px;
+    }
+
+    .games-btn {
+        width: 100px;
     }
 }
 
@@ -356,7 +406,7 @@ nav li {
         margin-bottom: 120px;
     }
 
-    .download-img-container{
+    .download-img-container {
         text-align: center;
     }
 
@@ -364,5 +414,21 @@ nav li {
         position: relative;
         bottom: 180px;
         right: 230px;
+    }
+
+    /* games section  */
+    .games-container {
+        background-color: #fff9fc;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 120px 250px;
+        margin-bottom: 120px;
+    }
+
+    .games-btn {
+        width: 200px;
     }
 }
